@@ -22,7 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## cacheSolve
-## takes a CacheMatrix (generated using makeCacheMatrix) as an input (x)
+## takes a CacheMatrix, x, as an input (x is generated using makeCacheMatrix)
 ## returns the inverse of the matrix stored in x
 
 cacheSolve <- function(x) {
